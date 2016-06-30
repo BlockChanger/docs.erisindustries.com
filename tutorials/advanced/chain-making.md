@@ -286,7 +286,7 @@ This file is useful for testing when integrating with `eris-contracts.js`. Getti
 
 **End Temporary Hack**
 
-Now let's look at the addresses.json
+Now let's look at the addresses.csv
 
 ```bash
 cat addresses.csv
