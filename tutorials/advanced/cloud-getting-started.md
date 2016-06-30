@@ -117,9 +117,9 @@ docker-machine create --driver amazonec2 -h
 Note that there is a lot more fine tuning you can do with AWS than can be done with Digital Ocean.
 
 ```bash
-docker-machine create --driver amazonec2 --amazonec2-region eu-west-1 ----amazonec2-vpc-id {{vpcID1}} --amazonec2-security-group {{secGrp1}} my-advchain-val-004
-docker-machine create --driver amazonec2 --amazonec2-region eu-central-1 ----amazonec2-vpc-id {{vpcID2}} --amazonec2-security-group {{secGrp2}} my-advchain-val-005
-docker-machine create --driver amazonec2 --amazonec2-region us-east-1 ----amazonec2-vpc-id {{vpcID3}} --amazonec2-security-group {{secGrp3}} my-advchain-val-006
+docker-machine create --driver amazonec2 --amazonec2-region eu-west-1 --amazonec2-vpc-id {{vpcID1}} --amazonec2-security-group {{secGrp1}} my-advchain-val-004
+docker-machine create --driver amazonec2 --amazonec2-region eu-central-1 --amazonec2-vpc-id {{vpcID2}} --amazonec2-security-group {{secGrp2}} my-advchain-val-005
+docker-machine create --driver amazonec2 --amazonec2-region us-east-1 --amazonec2-vpc-id {{vpcID3}} --amazonec2-security-group {{secGrp3}} my-advchain-val-006
 ```
 
 Again, this will take a few minutes to provision all of these machines. If you are unfamiliar with the nuances of AWS's VPCs and Security Groups then please use another cloud provider. Eris is not in a position to debug problems around your network configuration so if there are problems provisioning AWS boxes, please see docker-machines documentation and issues.
