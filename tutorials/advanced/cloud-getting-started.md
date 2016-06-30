@@ -108,7 +108,7 @@ AWS is, admittedly, a bit more complicated to get started with. You will need to
 * eu-central-1 (Frankfurt)
 * us-east-1 (Northern Virginia)
 
-We will continue our same naming paradigm. Before we make some machines let's look at the options available to us when we use the Digital Ocean driver:
+We will continue our same naming paradigm. Before we make some machines let's look at the options available to us when we use the Amazon EC2 Driver:
 
 ```bash
 docker-machine create --driver amazonec2 -h
